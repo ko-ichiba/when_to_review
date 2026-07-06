@@ -1,5 +1,5 @@
 name: when_to_review
-description: "A new Flutter project."
+description: "拡散分散学習の考え方に基づいて、今日復習すべき過去の日付を表示するアプリ"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev

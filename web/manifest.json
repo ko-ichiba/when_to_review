@@ -1,11 +1,11 @@
 {
-    "name": "when_to_review",
-    "short_name": "when_to_review",
+    "name": "今日の復習",
+    "short_name": "今日の復習",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "拡散分散学習の考え方に基づいて、今日復習すべき過去の日付を表示するアプリ",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

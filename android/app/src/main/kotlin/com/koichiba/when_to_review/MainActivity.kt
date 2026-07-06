@@ -1,4 +1,4 @@
-package com.example.when_to_review
+package com.koichiba.when_to_review
 
 import io.flutter.embedding.android.FlutterActivity
 
