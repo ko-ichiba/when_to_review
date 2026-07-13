@@ -21,9 +21,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       title: '今日の復習',
-      home: ReviewScreen(),
+      theme: ThemeData(fontFamily: 'NotoSansJP'),
+      home: const ReviewScreen(),
     );
   }
 }
