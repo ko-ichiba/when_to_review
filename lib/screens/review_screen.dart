@@ -20,7 +20,7 @@ class ReviewScreen extends StatelessWidget {
           children: [
             Text(
               '$todayText 今日復習するのは',
-              style: const TextStyle(color: Colors.grey, fontSize: 26),
+              style: TextStyle(color: Colors.grey[700], fontSize: 26),
             ),
             const SizedBox(height: 24),
             for (final interval in reviewIntervals)
