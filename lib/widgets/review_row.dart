@@ -14,17 +14,13 @@ class ReviewRow extends StatelessWidget {
       child: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
-          SizedBox(
-            width: 140,
-            child: Text(
-              label,
-              textAlign: TextAlign.right,
-              style: const TextStyle(fontSize: 26),
-            ),
+          Text(
+            dateText,
+            style: const TextStyle(fontSize: 26),
           ),
           const SizedBox(width: 24),
           Text(
-            dateText,
+            label,
             style: const TextStyle(fontSize: 26),
           ),
         ],
